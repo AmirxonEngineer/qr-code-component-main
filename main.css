@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Outfit-Bold;
+  src: url(./fonts/Outfit/Outfit-SemiBold.ttf);
+}
+
+@font-face {
+  font-family:Outfit-Thin ;
+  src: url(./fonts/Outfit/Outfit-Thin.ttf);
+}
+
+
+
+
+
+body {
+  background-color: hsl(212, 45%, 89%) ; 
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+.container {
+  width: 1140px;
+  display: flex;
+  justify-content: center;
+  margin: 250px auto;
+}
+
+.border{
+width: 30%; 
+height: 500px; 
+background-color: hsl(0, 0%, 100%);
+border-radius: 20px;
+}
+
+
+.border__image {
+margin-top: 10px;
+}
+
+.content img {
+  width: 310px;
+  border-radius: 10px;
+}
+
+.content {
+  display: inline-block;
+  text-align: center;
+  box-sizing: border-box;
+}
+.title {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 70%;
+  font-size: 20px;
+  font-family: Outfit-Bold;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 1px;
+  padding: 25px;
+  padding-top: 1px;
+  margin-bottom: 0;
+  font-family: Outfit-Thin;
+  font-weight: lighter;
+}
+
+
+
+.attribution {  
+  font-size: 11px; 
+  text-align: center;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
