@@ -1,79 +1,28 @@
-@font-face {
-  font-family: Outfit-Bold;
-  src: url(./fonts/Outfit/Outfit-SemiBold.ttf);
-}
-
-@font-face {
-  font-family:Outfit-Thin ;
-  src: url(./fonts/Outfit/Outfit-Thin.ttf);
-}
-
-
-
-
-
-body {
-  background-color: hsl(212, 45%, 89%) ; 
-  text-align: center; 
-  display: flex;
-  justify-content: center;
-  
-}
-
-
-
-.container {
-  width: 1140px;
-  display: flex;
-  justify-content: center;
-  margin: 250px auto;
-}
-
-.border{
-width: 30%; 
-height: 500px; 
-background-color: hsl(0, 0%, 100%);
-border-radius: 20px;
-}
-
-
-.border__image {
-margin-top: 10px;
-}
-
-.content img {
-  width: 310px;
-  border-radius: 10px;
-}
-
-.content {
-  display: inline-block;
+body{
+  background-color: #DFE1EF;
   text-align: center;
-  box-sizing: border-box;
-}
-.title {
-  display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 70%;
-  font-size: 20px;
-  font-family: Outfit-Bold;
-  font-weight: 700;
-}
-
-.subtitle {
-  margin-top: 1px;
-  padding: 25px;
-  padding-top: 1px;
-  margin-bottom: 0;
-  font-family: Outfit-Thin;
-  font-weight: lighter;
-}
-
-
-
-.attribution {  
-  font-size: 11px; 
-  text-align: center;
+  font-family: cursive;
  }
-.attribution a { color: hsl(228, 45%, 44%); }
+ .card{
+     position: absolute;
+     background-color: white;
+     margin: auto;
+     padding: 1rem;
+     padding-bottom: 3rem;
+     inset: 0;
+     height: 470px;
+     width: 100%;
+     max-width: 302px;
+     box-shadow: 0px 10px 20px 0px rgb(0 0 0/10%);
+     border-radius: 16px;
+ }
+ img{
+     width: 100%;
+     border-radius: 10px;
+ }
+ h2{
+     color: #1f3251;
+ }
+ p{
+       color:  hsl(216, 15%, 48%);
+ }
